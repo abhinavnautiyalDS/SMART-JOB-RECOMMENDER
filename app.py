@@ -2,7 +2,7 @@
 import os
 
 if not os.path.exists(".installed_dependencies"):  # Run only once
-    os.system("pip install -r requirements.txt")
+    os.system("pip install --upgrade google-generativeai pypdf")
     open(".installed_dependencies", "w").close()
 
 
