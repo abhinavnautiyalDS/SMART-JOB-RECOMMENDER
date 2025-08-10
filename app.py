@@ -1,5 +1,4 @@
 #!/usr/bin/env python3pip install --upgrade google-generativeai pypdf
-pip install --upgrade google-generativeai pypdf
 
 
 """
