@@ -1,4 +1,3 @@
-!pip install -r requirements.txt
 #!/usr/bin/env python3
 """
 Smart Job Recommender - Streamlit Cloud Deployment Version
