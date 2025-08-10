@@ -1,4 +1,7 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3pip install --upgrade google-generativeai pypdf
+pip install --upgrade google-generativeai pypdf
+
+
 """
 Smart Job Recommender - Streamlit Cloud Deployment Version
 =============================================
