@@ -88,7 +88,7 @@ class GeminiRAGSystem:
             st.error(f"Error initializing Gemini RAG: {e}")
             return False
     
-    def load_document_with_pypdf(self, uploaded_file) -> List[Document]:
+    def load_document_with_pypdf(self, uploaded_file):
         """Step 1: Load document using PyPDF"""
         try:
             with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
