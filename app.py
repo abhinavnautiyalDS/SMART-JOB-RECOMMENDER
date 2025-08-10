@@ -1,9 +1,3 @@
-#!/usr/bin/env python3pip install --upgrade google-generativeai pypdf
-import os
-
-if not os.path.exists(".installed_dependencies"):  # Run only once
-    os.system("pip install --upgrade google-generativeai pypdf")
-    open(".installed_dependencies", "w").close()
 
 
 """
