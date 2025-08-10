@@ -1,5 +1,6 @@
+pypdf
 streamlit
 google_generativeai
-pypdf
+
 pandas>=2.3.0
 requests>=2.32.0
