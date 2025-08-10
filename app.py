@@ -1,4 +1,3 @@
-python -m pip install -r requirements.txt
 #!/usr/bin/env python3pip install --upgrade google-generativeai pypdf
 
 
