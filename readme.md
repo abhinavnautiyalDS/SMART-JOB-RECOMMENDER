@@ -1,3 +1,6 @@
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/a4bf6cf1-97bc-466b-b1f3-7f7ce8fe2ab7" />
+
 # Smart Job Recommender - Gemini RAG System
 
 A deployment-ready Streamlit application that uses a custom RAG pipeline with Google Gemini for intelligent job matching.
