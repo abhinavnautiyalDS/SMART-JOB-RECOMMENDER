@@ -3,7 +3,15 @@
 
 # Smart Job Recommender - Gemini RAG System
 
-A deployment-ready Streamlit application that uses a custom RAG pipeline with Google Gemini for intelligent job matching.
+
+# Project Overview
+Finding a job or internship is time-consuming and frustrating for many students:You have to search on multiple websites (Google Jobs, LinkedIn, etc.).You see lots of irrelevant job posts that don’t match your skills.You waste time reading through dozens of descriptions.
+What if you could have an AI assistant that:
+- Reads your resume or skills.
+- Searches for jobs online.
+- Picks the ones that match you best.
+- Explains why they’re a good fit.
+
 
 ## 🚀 Quick Deploy on Streamlit Cloud
 
