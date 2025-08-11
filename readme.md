@@ -1,5 +1,5 @@
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/a4bf6cf1-97bc-466b-b1f3-7f7ce8fe2ab7" />
+<img width="1008" height="647" alt="ChatGPT Image Aug 11, 2025, 12_53_45 PM" src="https://github.com/user-attachments/assets/37d6a2ea-7023-434d-a2e6-b7451cc4cb03" />
 
 # Smart Job Recommender - Gemini RAG System
 
