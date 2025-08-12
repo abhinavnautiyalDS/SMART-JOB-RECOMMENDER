@@ -798,15 +798,24 @@ def display_results(extracted_data: Dict[str, Any], job_results: Dict[str, List]
                     st.write(f"**Source:** {internship['source']}")
                     
                     # Enhanced apply link display
-                    if internship['apply_link'] and internship['apply_link'] != "#" and internship['apply_link'] != "":
-                        st.link_button("🚀 Apply Now", internship['apply_link'], type="primary")
+                    # if internship['apply_link'] and internship['apply_link'] != "#" and internship['apply_link'] != "":
+                    #     st.link_button("🚀 Apply Now", internship['apply_link'], type="primary")
+                    #     st.caption("Click to apply on the job site")
+                    # else:
+                    #     st.warning("No direct apply link available")
+                    #     if internship.get('company'):
+                    #         search_url = f"https://www.google.com/search?q={internship['company']}+{internship['title']}+internship"
+                    #         st.link_button("🔍 Search on Google", search_url)
+                            
+                    if apply_link and apply_link != "#" and apply_link.strip() != "":
+                        st.link_button("🚀 Apply Now", apply_link, type="primary")
                         st.caption("Click to apply on the job site")
                     else:
                         st.warning("No direct apply link available")
                         if internship.get('company'):
-                            search_url = f"https://www.google.com/search?q={internship['company']}+{internship['title']}+internship"
+                            search_url = f"https://www.google.com/search?q={internship['company']}+{internship.get('title', '')}+internship"
                             st.link_button("🔍 Search on Google", search_url)
-    
+                        
     # No results message
     if not job_results["jobs"] and not job_results["internships"]:
         st.info("🔍 No job matches found. This could be due to:")
