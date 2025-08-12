@@ -223,11 +223,15 @@ class SmartJobRecommenderRAG:
                         
                         if jobs_key in data and data[jobs_key]:
                             for job in data[jobs_key]:
-                                # Get best available application link
-                                apply_link = (job.get("apply_link") or 
-                                            job.get("link") or 
-                                            job.get("apply_url") or 
-                                            job.get("url") or "")
+                                # Get best available application link, fallback to website link
+                                apply_link = (
+                                    job.get("apply_link") or
+                                    job.get("link") or
+                                    job.get("apply_url") or
+                                    job.get("url") or
+                                    data.get("website_link", "")  # fallback to the website link for that page
+                                )
+
                                 
                                 job_data = {
                                     "title": job.get("title", "Unknown Title"),
