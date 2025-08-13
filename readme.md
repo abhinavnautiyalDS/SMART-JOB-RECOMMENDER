@@ -25,7 +25,7 @@ The app will use LangChain, Google’s Gemini LLM, and Retrieval-Augmented Gener
 
 The application will be developed with Streamlit to deliver an interactive and user-friendly experience, making job searching smarter, faster, and more personalized.
 
-## 🚀 Quick Deploy on Streamlit Cloud
+## Tools I have used 
 
 1. **Fork this repository** to your GitHub account
 2. **Go to [Streamlit Cloud](https://streamlit.io/cloud)** 
