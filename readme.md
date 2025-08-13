@@ -175,8 +175,7 @@ Then finds matching jobs with:
 https://github.com/user-attachments/assets/46dc4b1b-d58f-44b5-a65a-2913105f832e
 
 
-
-
+https://github.com/user-attachments/assets/b4c9c715-661a-49d4-b222-213202b4dfa5
 
 
 
