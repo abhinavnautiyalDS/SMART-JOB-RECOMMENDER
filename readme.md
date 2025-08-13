@@ -170,3 +170,13 @@ Then finds matching jobs with:
 ---
 
 **Ready to deploy?** Just push to GitHub and connect to Streamlit Cloud!
+
+
+https://github.com/user-attachments/assets/9d05b07c-980c-4801-a5bd-c01ac6469b56
+
+
+
+
+https://github.com/user-attachments/assets/345cdd55-cf84-47aa-bdb3-568c331d9921
+
+
